@@ -9,6 +9,11 @@
             "email": "banago@gmail.com",
             "homepage": "http://wplancer.com",
             "role": "Developer"
+        },
+        {
+            "name": "Joel De Smit",
+            "email": "phploy@joeldesmit.nl",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",

@@ -1,5 +1,6 @@
 # PHPloy
-**Version 4.9.2**
+**Version 4.10.1**
+Flysystem update
 
 PHPloy is an incremental Git FTP and SFTP deployment tool. By keeping track of the state of the remote server(s) it deploys only the files that were committed since the last deployment. PHPloy supports submodules, sub-submodules, deploying to multiple servers and rollbacks. PHPloy requires **PHP 7.3+** and **Git 1.8+**.
 
@@ -14,7 +15,7 @@ PHPloy stores a file called `.revision` on your server. This file contains the h
 If you have composer installed in your machine, you can pull PHPloy globally like this:
 
 ```bash
-composer global require "banago/phploy"
+composer global require "desm-it/phploy"
 ```
 
 Make sure to place the `$HOME/.composer/vendor/bin` directory (or the [equivalent directory](http://stackoverflow.com/a/40470979/512277) for your OS) 
@@ -297,7 +298,7 @@ Contributions are very welcome; PHPloy is great because of the contributors. Ple
 
 ## Version history
 
-Please check [release history](https://github.com/banago/PHPloy/releases) for details.
+Please check [release history](https://github.com/desm-it/PHPloy/releases) for details.
 
 ## License
 
