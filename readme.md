@@ -16,6 +16,7 @@ If you have composer installed in your machine, you can pull PHPloy globally lik
 
 ```bash
 composer global require "desm-it/PHPloy"
+or
 composer global require "bluedot-bd/PHPloy"
 ```
 
